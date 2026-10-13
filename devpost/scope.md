@@ -66,7 +66,9 @@ They come back whenever a chart looks too dramatic to be true.
 ## Explicitly Cut
 Nothing is cut outright. Everything not in the POC is deferred to Later.
 
+## Inverted Axis: Direction Is Separate from Size
+The Lie Factor measures **size**, computed on magnitudes. An inverted axis is flagged separately as a **direction** reversal. So a chart can be accurate in size but reversed in direction, and it's still misleading. Learner's example verdict: "Axis inverted. The bar that looks taller (My Fund) is actually the smaller value. Lie Factor: 1.1 (magnitude is accurate, but direction is reversed)."
+
 ## Open Questions for the PRD
-- What the Lie Factor and verdict mean for an **inverted** y-axis, where the visual effect points the opposite way from the data.
 - What Unspin shows when a chart is honest (Lie Factor ≈ 1), and when the image isn't a readable bar chart.
 - Whether horizontal bar charts count as "bar charts" for the POC.
